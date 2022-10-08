@@ -1,5 +1,5 @@
 import { readdirSync } from 'fs';
-import Config from '../config';
+import { Config } from '../config';
 
 export default function () {
     const commands = readdirSync('./dist/commands/').filter(file => file.endsWith('.js'));
