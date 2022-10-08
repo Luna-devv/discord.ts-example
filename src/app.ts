@@ -1,17 +1,19 @@
-import { Client, Collection } from 'discord.js';
-import Config from './config';
+import { Client } from 'discord.js';
+import { Config } from './config';
 
 const client = new Client({
     allowedMentions: {
         parse: ['users', 'roles']
     },
     presence: {
-        status: 'invisible',
-        activities: [{
-            name: 'Connecting..'
-        }]
+        status: 'online',
+        activities: [
+            {
+                name: 'EA sports'
+            }
+        ]
     },
-    intents: 1
+    intents: 131071
 });
 
 //------------------------------- handlers

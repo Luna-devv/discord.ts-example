@@ -11,7 +11,9 @@ export type ConfigType = {
     prefix: string;
     developers: string[];
     data: {
-        interactions: Collection<string, Command>;
+        interactions: {
+            commands: Collection<string, Command>;
+        };
         commands: Collection<string, Command>;
         events: Collection<string, unknown>;
     }

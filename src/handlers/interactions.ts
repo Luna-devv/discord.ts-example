@@ -6,6 +6,6 @@ export default function () {
 
     for (let file of commands) {
         let pull = require(`../interactions/commands/${file}`).default;
-        if (pull.name) Config.data.interactions.set(pull.name, pull);
+        if (pull.name) Config.data.interactions.commands.set(pull.name, pull);
     };
 };
