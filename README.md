@@ -1,4 +1,4 @@
-# Getting Ready
+# discord.js TypeScript Example
 
 ### Installing
 In order to use this example, please download [node.js](https://nodejs.org) with a minimum version of `v18`. <br>
