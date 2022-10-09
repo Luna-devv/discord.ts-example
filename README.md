@@ -2,8 +2,10 @@
 
 ### Installing
 In order to use this example, please download [node.js](https://nodejs.org) with a minimum version of `v18`. <br>
-After this is done, please install [`yarn`](https://yarnpkg.com/) (package manager) and [`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) (typescript compiler).
-
+After this is done, please install [`yarn`](https://yarnpkg.com/) (package manager) and [`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) (typescript compiler) using
+```bash
+npm install -g yarn tsc
+```
 
 In order to install this project and getting all packages, please run 
 ```bash
