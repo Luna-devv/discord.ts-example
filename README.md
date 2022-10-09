@@ -10,6 +10,7 @@ npm install -g yarn tsc
 In order to install this project and getting all packages, please run 
 ```bash
 git clone https://github.com/Luna-devv/discord.ts-example
+cd discord.ts-example
 yarn install
 ```
 
