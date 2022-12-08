@@ -20,7 +20,11 @@ const client = new Client({
 
 const names = ['interactions', 'commands', 'events']
 names.forEach(name => {
-    require(`./handlers/${name}`).default(client);
+    try {
+        require(`./handlers/${name}`).default(client);
+    } catch (e) {
+        console.error('Error whilst trying to load handler', name, e);
+    }
 });
 
 client.login(Config.token);
